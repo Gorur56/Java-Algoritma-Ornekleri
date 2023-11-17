@@ -1,6 +1,7 @@
 package com.firstapp.nesnetabanligiris.mainmethodlar;
 
 import com.firstapp.nesnetabanligiris.siniflar.Ogrenciler;
+import com.firstapp.nesnetabanligiris.siniflar.Urunler;
 
 public class ErisimMain {
     public static void main(String Args[]){
@@ -16,5 +17,12 @@ public class ErisimMain {
 
         System.out.println("Öğrenci Adı: "+ ogr.getIsim());
         System.out.println("Öğrenci No: "+ ogr.getOgrNo());
+
+
+        Urunler urun = new Urunler("Telefon", 30);
+
+        System.out.println("ürün Adı: "+ urun.getUrunAdi());
+        System.out.println("ürün Adeti: "+ urun.getUrunAdeti());
+
     }
 }
