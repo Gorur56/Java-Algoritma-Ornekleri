@@ -11,5 +11,10 @@ public class ErisimMain {
 
         ogr.bilgiAl();
 
+        ogr.setIsim("Yücel");
+        ogr.setOgrNo(258);
+
+        System.out.println("Öğrenci Adı: "+ ogr.getIsim());
+        System.out.println("Öğrenci No: "+ ogr.getOgrNo());
     }
 }
