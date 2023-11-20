@@ -5,6 +5,7 @@ import com.firstapp.nesnetabanligiris.siniflar.KisilerComposition;
 
 public class CompositionMain {
     public static void main( String Args[]){
+        //Composition genelde veritabanlarında kullanılır.
         //İçerideki sınıf her zaman önce tanımlanmalıdır.
         AdreslerCompositon adres = new AdreslerCompositon("İstanbul", "Maltepe");
 
@@ -15,7 +16,6 @@ public class CompositionMain {
 
         //Bu şekilde composition yani iç içe sınıflara erişebildik.
         System.out.println("Adres: "+ kisi.getAdresler().getIl() +"/"+ kisi.getAdresler().getIlce());
-
-
+        
     }
 }
