@@ -1,4 +1,6 @@
-package com.firstapp.nesnetabanligiris.siniflar;
+package com.firstapp.nesnetabanligiris.mainmethodlar;
+
+import com.firstapp.nesnetabanligiris.siniflar.FinalSabitleri;
 
 public class FinalSabitleriMain {
     public static void main( String Args[]){
@@ -6,6 +8,6 @@ public class FinalSabitleriMain {
 
         renk.boya(FinalSabitleri.red); // red 'de zaten int bir değer olduğu için direk böyle yazabiliriz.
 
-        FinalSabitleri.red = 2222; // Hata verir. Final değişken değiştirilemez.
+        //FinalSabitleri.red = 2222; // Hata verir. Final değişken değiştirilemez.
     }
 }
