@@ -5,11 +5,15 @@ public class Arac { //extend object otomatik olur.
     private String vitesTipi;
 
     public Arac() {
+        super(); //Java da bir üst sınıf olan object sınıfını çalıştırır.
+        System.out.println("Araç boş constractor çalıştı...");
     }
 
     public Arac(String renk, String vitesTipi) {
+        super();
         this.renk = renk;
         this.vitesTipi = vitesTipi;
+        System.out.println("Araç dolu constractor çalıştı...");
     }
 
     public String getRenk() {

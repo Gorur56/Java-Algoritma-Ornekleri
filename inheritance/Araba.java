@@ -4,10 +4,14 @@ public class Araba extends Arac { // extends anahtar kelime ile Arac 'tan miras 
     private String kasaTipi;
 
     public Araba() {
+        super();
+        System.out.println("Araba boş constractor çalıştı...");
     }
 
     public Araba(String kasaTipi) {
+        super();
         this.kasaTipi = kasaTipi;
+        System.out.println("Araba dolu constractor çalıştı...");
     }
 
     public String getKasaTipi() {

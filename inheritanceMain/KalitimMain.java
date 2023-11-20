@@ -1,6 +1,7 @@
 package com.firstapp.nesnetabanligiris.inheritanceMain;
 
 import com.firstapp.nesnetabanligiris.inheritance.Araba;
+import com.firstapp.nesnetabanligiris.inheritance.Arac;
 import com.firstapp.nesnetabanligiris.inheritance.Subaru;
 
 public class KalitimMain {
@@ -32,6 +33,18 @@ public class KalitimMain {
 
 
         araba.bilgiAl();
+
+        System.out.println("Dolu constractor çalıştır....\n");
+        Subaru subaru1 = new Subaru("2.4");
+
+        System.out.println("Dolu constractor çalıştır....\n");
+        Araba araba1 = new Araba("Sedan");
+
+        System.out.println("Dolu constractor çalıştır....\n");
+        Arac arac1 = new Arac("Mavi", "Otomatik");
+
+
+        //Kalıtım constractor ilişkisi super() ile bir üst sınıfın constractor 'a ulaşır.
 
 
 
