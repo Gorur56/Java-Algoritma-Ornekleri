@@ -16,6 +16,6 @@ public class CompositionMain {
 
         //Bu şekilde composition yani iç içe sınıflara erişebildik.
         System.out.println("Adres: "+ kisi.getAdresler().getIl() +"/"+ kisi.getAdresler().getIlce());
-        
+
     }
 }
