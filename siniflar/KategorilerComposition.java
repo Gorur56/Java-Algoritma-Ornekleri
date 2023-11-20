@@ -24,7 +24,7 @@ public class KategorilerComposition {
         return kategori_ad;
     }
 
-    public void setKategori_ad(String kategori_ad) {
+    public void setKategori_ad(String  kategori_ad) {
         this.kategori_ad = kategori_ad;
     }
 }
