@@ -24,5 +24,6 @@ public class OverrideMain {
 
         KediOverride kedi1 = new KediOverride();
         kedi1.sesCikar(); //Çıktı = Miyav
+
     }
 }
