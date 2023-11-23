@@ -1,6 +1,8 @@
 package com.firstapp.nesnetabanligiris.collections;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class ArrayListMain {
     public static void main( String Args[])
@@ -34,6 +36,9 @@ public class ArrayListMain {
         //Yerini değiştirmek istersek
 
         meyveler.set(3,"Mandalina"); //ERik i Mandalina ile değiştirdik.
+
+
+        Collections.sort(meyveler); //Kendi içeriğine göre bir sıralama yapar. (Metinsel veya Sayısal)
 
         for (String m:meyveler)
         {
