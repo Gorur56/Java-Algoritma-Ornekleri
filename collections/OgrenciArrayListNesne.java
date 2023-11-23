@@ -45,7 +45,7 @@ public class OgrenciArrayListNesne implements Comparable<OgrenciArrayListNesne>{
     @Override
     public boolean equals(@Nullable Object obj) {
         //false göndüğünde artık aynı okul numarası varsa kayıt yapmayacaktır.
-        
+
         if(this.okulNo == ((OgrenciArrayListNesne)obj).getOkulNo())
         {
             return true;
