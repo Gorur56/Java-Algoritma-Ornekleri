@@ -1,9 +1,9 @@
-package com.firstapp.nesnetabanligiris.collections;
+package com.firstapp.nesnetabanligiris.arraylistodevler;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ArrayListOdev2 {
+public class ArrayListOdev2Main {
     public static void main(String Args[])
     {
         Scanner scan = new Scanner(System.in);

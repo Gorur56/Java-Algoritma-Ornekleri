@@ -1,10 +1,10 @@
-package com.firstapp.nesnetabanligiris.collections;
+package com.firstapp.nesnetabanligiris.arraylistodevler;
 
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class ArraylistOdev3 {
+public class ArraylistOdev3Main {
     public static void main(String args[])
     {
         Scanner scan = new Scanner(System.in);

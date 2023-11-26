@@ -1,4 +1,4 @@
-package com.firstapp.nesnetabanligiris.collections;
+package com.firstapp.nesnetabanligiris.arraylistodevler;
 
 import java.util.ArrayList;
 import java.util.Collections;
